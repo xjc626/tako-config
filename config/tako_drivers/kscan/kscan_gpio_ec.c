@@ -47,7 +47,7 @@ const uint16_t actuation_threshold[] = {
 const uint16_t release_threshold[] = {
 8,310,120,700,720,
 110,320,750,750,720,
-750,750,750,750,720,
+330,750,750,750,720,
 300,650,350,600,730,
 };
 #else
