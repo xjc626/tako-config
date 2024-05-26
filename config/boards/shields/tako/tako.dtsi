@@ -26,10 +26,10 @@
   };
 };
 
-&pro_micro_i2c {
+&i2c0 {
     status = "okay";
     sda-pin = <17>;
-	  scl-pin = <20>; 
+    scl-pin = <20>; 
 
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
