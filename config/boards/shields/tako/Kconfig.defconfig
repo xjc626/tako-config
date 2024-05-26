@@ -13,7 +13,14 @@ if SHIELD_TAKO_LEFT || SHIELD_TAKO_RIGHT
 config ZMK_SPLIT
   default y
 
+if ZMK_DISPLAY
+
 config I2C
-    default n
+    default y
+
+config SSD1306
+    default y
+
+endif
 
 endif
