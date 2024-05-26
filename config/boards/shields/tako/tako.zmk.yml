@@ -4,7 +4,7 @@ name: Tako
 type: shield
 url: https://github.com/ssbb/tako/
 requires: [pro_micro]
-exposes: [i2c_oled]
+exposes: []
 features:
   - keys
   - display
