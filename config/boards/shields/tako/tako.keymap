@@ -52,9 +52,9 @@
 
         blue_layer {
             bindings = <
-                &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3          &bt BT_NXT       &trans           &trans         &kp UARW    &trans     &trans
-                &bt BT_SEL 4    &trans           &trans           &trans                &bt BT_PRV       &trans           &kp LARW       &kp DARW    &kp RARW   &trans
-                &trans          &trans           &trans           &trans                &trans           &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
+                &trans           &trans         &trans         &trans     &trans        &trans           &trans         &kp UARW    &trans     &trans
+                &trans           &trans         &trans         &trans     &trans        &trans           &kp LARW       &kp DARW    &kp RARW   &trans
+                &trans          &trans           &trans           &trans                &trans           &trans         &kp HOME    &kp PG_DN   &kp PG_UP  &kp END
                                                  &to 0            &to 1                 &trans           &kp DEL
             >;
         };
