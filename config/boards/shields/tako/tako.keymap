@@ -35,14 +35,14 @@
 
         default_layer {
             bindings = <
-                &hm TAB Q        &kp W           &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
-                &hm LSHFT A      &kp S           &kp D       &kp F          &kp G         &kp H            &kp J          &kp K       &kp L      &kp QUOT
-                &hm LCTRL Z      &hm LWIN X      &hm LALT C  &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                 &lt GAME    &lt BLUE SPACE      &lt NUM ENTER   &lt SYM BKSP
+                &kp Q            &kp W           &kp E           &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
+                &hm LSHFT A      &kp S           &kp D           &kp F          &kp G         &kp H            &kp J          &kp K       &kp L      &kp QUOT
+                &hm LCTRL Z      &hm LWIN X      &hm LALT C      &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
+                                                 &lt GAME TAB    &lt BLUE SPACE               &lt NUM ENTER   &lt SYM BKSP
             >;
         };
 
-        game_layer {
+        gam_layer {
             bindings = <
                 &kp ESC      &kp Q      &kp W       &kp E           &kp R        &trans           &trans         &trans         &trans     &trans
                 &kp LSHFT    &kp A      &kp S       &kp D           &kp F        &trans           &trans         &trans         &trans     &trans
@@ -51,7 +51,7 @@
             >;
         };
 
-        blue_layer {
+        blu_layer {
             bindings = <
                 &trans           &trans         &trans         &trans         &trans            &trans           &trans          &kp UARW    &trans     &trans
                 &trans           &trans         &trans         &trans         &trans            &trans           &kp LARW       &kp DARW    &kp RARW   &trans
