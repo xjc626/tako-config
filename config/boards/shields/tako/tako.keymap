@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods";
             #binding-cells = <2>;
-            tapping_term_ms = <1000>;
+            tapping_term_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -41,7 +41,7 @@
             >;
         };
 
-        gam_layer {
+        game_layer {
             bindings = <
                 &kp ESC      &kp Q      &kp W       &kp E           &kp R        &trans           &trans         &trans         &trans     &trans
                 &kp LSHFT    &kp A      &kp S       &kp D           &kp F        &trans           &trans         &trans         &trans     &trans
@@ -50,12 +50,12 @@
             >;
         };
 
-        blu_layer {
+        blue_layer {
             bindings = <
                 &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3          &bt BT_NXT       &trans           &trans         &kp UARW    &trans     &trans
                 &bt BT_SEL 4    &trans           &trans           &trans                &bt BT_PRV       &trans           &kp LARW       &kp DARW    &kp RARW   &trans
                 &trans          &trans           &trans           &trans                &trans           &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
-                                                  &to 0           &to 1                 &trans           &kp DEL
+                                                 &to 0            &to 1                 &trans           &kp DEL
             >;
         };
 
