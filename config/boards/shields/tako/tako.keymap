@@ -38,7 +38,7 @@
                 &hm TAB Q        &kp W           &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &hm LSHFT A      &kp S           &kp D       &kp F          &kp G         &kp H            &kp J          &kp K       &kp L      &hm LSHFT QUOT
                 &hm LCTRL Z      &hm LGUI X      &hm LALT C  &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &hm LCTRL FSLH
-                                                 &to 1   &kp SPACE      &lt NUM_L ENTER   &lt SYM_L BKSP
+                                                 &trans    &kp SPACE      &lt NUM_L ENTER   &lt SYM_L BKSP
             >;
         };
 
@@ -47,13 +47,13 @@
                 &kp ESC      &kp Q      &kp W       &kp E           &kp R        &trans           &trans         &trans         &trans     &trans
                 &kp LSHFT    &kp A      &kp S       &kp D           &kp F        &trans           &trans         &trans         &trans     &trans
                 &kp LCTRL    &kp Z      &kp X       &kp C           &kp v        &trans           &trans         &trans         &trans     &trans
-                                                    &kp TAB         &kp SPACE    &to 0            &to 2
+                                                    &kp TAB         &kp SPACE    &trans           &trans 
             >;
         };
 
         blue_layer {
             bindings = <
-                &trans           &trans         &trans         &trans         &trans            &to 1            &to 0          &kp UARW    &trans     &trans
+                &trans           &trans         &trans         &trans         &trans            &trans           &trans          &kp UARW    &trans     &trans
                 &trans           &trans         &trans         &trans         &trans            &trans           &kp LARW       &kp DARW    &kp RARW   &trans
                 &trans           &trans         &trans         &trans         &trans            &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
                                                                &trans         &trans            &trans           &kp DEL
