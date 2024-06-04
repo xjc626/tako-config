@@ -10,9 +10,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define NAV_L 1
-#define OTHER_L 2
-#define NUM_L 3
-#define SYM_L 4
+#define NUM_L 2
+#define SYM_L 3
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -34,28 +33,19 @@
 
         default_layer {
             bindings = <
-                &hm TAB Q        &kp W          &kp E            &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
+                &hm N1 Q         &hm N2 W       &hm N3 E         &hm N4 R       &hm N5 T      &hm N6 Y         &hm N7 U       &hm N8 I    &hm N9 O   &hm N0 P
                 &hm LSHFT A      &kp S          &kp D            &kp F          &kp G         &kp H            &kp J          &kp K       &kp L      &kp QUOT
                 &hm LCTRL Z      &hm LGUI X     &hm LALT C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                &to 1            &kp ENTER      &to 3            &to 4
+                                                &to 1            &kp ENTER      &to 2         &to 3
             >;
         };
 
         nav_layer {
             bindings = <
-                &kp A      &trans     &trans      &trans          &trans       &to 0            &to 3          &to 4       &bt BT_NXT     &trans
+                &trans     &trans     &trans      &trans          &trans       &to 0            &to 2          &to 3       &bt BT_NXT     &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LARW       &kp DARW    &kp UARW       &kp RARW
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP      &kp END
                                                   &trans          &trans       &kp ESC          &kp DEL
-            >;
-        };
-
-        other_layer {
-            bindings = <
-                &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans      &trans     &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans      &trans     &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &trans      &trans     &trans
-                                                  &trans          &trans       &trans           &trans
             >;
         };
 
