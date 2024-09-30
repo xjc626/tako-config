@@ -1,6 +1,6 @@
 file_format: "1"
 id: tako
-name: Tako
+name: ec kb
 type: shield
 url: https://github.com/ssbb/tako/
 requires: [pro_micro]
