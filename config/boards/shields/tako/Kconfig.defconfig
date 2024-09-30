@@ -1,7 +1,7 @@
 if SHIELD_TAKO_LEFT
 
 config ZMK_KEYBOARD_NAME
-  default "Tako"
+  default "ec kb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
   default y
